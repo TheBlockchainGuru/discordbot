@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "pm2 start server.js --name Bot --restart-delay=3000 && pm2 logs Bot --lines 1",
+        "stop": "pm2 stop Bot",
+        "restart": "pm2 restart Bot --restart-delay=3000 && pm2 logs Bot --lines 1"
+    },
+    "dependencies": {
+        "discord.js": "^13.8.1"
+    }
+}
