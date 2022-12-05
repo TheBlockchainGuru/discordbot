@@ -1,9 +1,3 @@
 {
-    "token": "",
-    "role": "992124425434579004",
-    "categories": [
-        {"name": "Upcoming", "value": "927790057262313522"},
-        {"name": "Recent", "value": "932762339801968650"},
-        {"name": "TBA", "value": "933391256359424110"}
-    ]
+  "token": ""
 }
